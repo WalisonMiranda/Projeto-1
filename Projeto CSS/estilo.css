@@ -1,0 +1,162 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+	font-size: 16px;
+	font-family: "Trebuchet MS" , Helvetica , sans-serif;
+	background: saddlebrown;
+}
+
+a{
+	text-decoration: none;
+	padding: 5px 10px 5px 10px;
+}
+
+a:link{
+	color: sienna;
+}
+a:visited{
+	color: blue;
+}
+a:hover{
+	color: white;
+	background: sienna;
+	padding: 12px 18px 18px 18px;
+}
+a:active{
+	color: black;
+}
+
+#navegacao{
+	background-color: lightgrey;
+	border-bottom: 0px solid black;
+	height: 60px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+
+
+		
+}
+
+#area{
+	width: 1300px;
+	margin: 0 auto;
+	border: 0px solid red;
+	padding: 13px;
+
+
+}
+
+#menu{
+	float: right;
+	padding: 4px 4px 4px 4px;
+}
+
+#logo{
+	float: left;
+}
+
+#area-principal{
+	width: 1100px;
+	margin: 80px auto 80px auto;
+	border: 0px solid red;
+	
+}
+
+#postagem{
+	background: lightgrey;
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 1100px;
+}
+
+#postagem2{
+	background: lightgrey;
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 300px;
+}
+
+.caixa{
+	border: 2px solid black;
+	padding: 4px;
+	margin: 50px 600px 1000px 80px;
+	width: 750px;
+	height: 100px auto;
+}
+
+.verde{
+	color: blue;
+}
+
+.data-postagem{
+	font-size: 13px;
+	border-bottom: 1px solid grey;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	padding-left: 9px;
+}
+
+.img-postagem{
+	float:left;
+	margin: 0 10px 5px 10px;
+	
+}
+
+.postado{
+	border-left: 5px solid sienna;
+	padding-left: 5px;
+	display: block;
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+.link-postagem:hover{
+	background-color: lightgrey;
+	padding: 10px 10px;
+
+}
+
+.sienna{
+	color: sienna;
+}
+
+.parceiros{
+	padding-left: 80px;
+}
+
+.img-parceiros{
+	float:left;
+	margin: -18px 10px 10px 5px;
+}
+
+.parceiros2{
+	padding-left: 80px;
+	height: 18px;
+}
+
+.parceiros3{
+	padding-left: 80px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+.img-parceiros2{
+	float:left;
+	margin: -12px 10px 10px 5px;
+}
+
+.fundo-contato{
+	margin-left: 520px;
+	margin-top: -500px;
+	
+}
+
+.contact{
+	padding-left: 70px;
+	color: lightgrey;
+}
